@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
     --dark-blue-text: hsl(238, 29%, 16%);
     --red-text: hsl(14, 88%, 65%);
     --bg-violet: hsl(273, 75%, 66%);
@@ -16,6 +17,7 @@ body {
     background-image: linear-gradient(to bottom, var(--bg-violet) 0%, var(--bg-blue) 100%);
     min-height: 100vh;
     overflow: hidden;
+    --webkit-backface-visibility: hidden;
 }
 
 #main-container {
